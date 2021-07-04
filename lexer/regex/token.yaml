@@ -1,0 +1,17 @@
+# 需要转义的字符 []\-/
+
+identifier:
+  id: 1
+  pattern: '[_a-zA-Z][a-zA-Z0-9]*'
+
+digit:
+  id: 2
+  pattern: '[0-9]*'
+
+operator:
+  id: 3
+  pattern: '[+\-*\/()\[\]]'
+
+white_space:
+  id: 4
+  pattern: ' \\t\\n'
